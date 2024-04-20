@@ -16,7 +16,7 @@ export default function TopList(props: {name: string}) {
 
     interface MoviesWatching {
         id: number,
-        rating: number,
+        rating: StaticImageData,
         image: StaticImageData,
     }
 
