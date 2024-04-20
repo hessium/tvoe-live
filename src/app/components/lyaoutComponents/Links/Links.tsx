@@ -5,19 +5,19 @@ export default function Links() {
         <nav className={cl.links}>
             <ul>
                 <li>
-                    <a href="@/app/components/lyaoutComponents/Links/Links#">Контакты</a>
+                    <a href="#">Контакты</a>
                 </li>
                 <li>
-                    <a href="@/app/components/lyaoutComponents/Links/Links#">Реферальная программа</a>
+                    <a href="#">Реферальная программа</a>
                 </li>
                 <li>
-                    <a href="@/app/components/lyaoutComponents/Links/Links#">Скачать приложение</a>
+                    <a href="#">Скачать приложение</a>
                 </li>
                 <li>
-                    <a href="@/app/components/lyaoutComponents/Links/Links#">Вопросы и ответы</a>
+                    <a href="#">Вопросы и ответы</a>
                 </li>
                 <li>
-                    <a href="@/app/components/lyaoutComponents/Links/Links#">Условия использования</a>
+                    <a href="#">Условия использования</a>
                 </li>
             </ul>
         </nav>

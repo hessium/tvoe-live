@@ -7,18 +7,16 @@ import TV from "@/app/assets/img/canals.svg";
 import Favorite from "@/app/assets/img/favorite.svg";
 import Serial from "@/app/assets/img/serial.svg";
 import Movie from "@/app/assets/img/nav-movie.svg";
-import useMediaQueries from "@/app/utils";
 
 const Navigation = () => {
-    const { md } = useMediaQueries();
+
     return (
         <div className={cl.navigation}>
-            {md ? <Link href="/Users/hessi/PhpstormProjects/tvoe-live/public" className={cl.btn}>Попробовать бесплатно</Link>
-                : <></>}
+           <Link href="#" className={`${cl.btn} ${cl.mobile}`}>Попробовать бесплатно</Link>
             <nav className={cl.wrapper}>
                 <ul>
                     <li >
-                        <Link href='/Users/hessi/PhpstormProjects/tvoe-live/public'>
+                        <Link href='#'>
                             <div className={`${cl.bg} ${cl.active}`}>
                             </div>
                             <Image
@@ -31,7 +29,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li >
-                        <Link href='/Users/hessi/PhpstormProjects/tvoe-live/public'>
+                        <Link href='#'>
                             <div className={`${cl.bg}`}>
                             </div>
                             <Image
@@ -44,7 +42,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li >
-                        <Link href='/Users/hessi/PhpstormProjects/tvoe-live/public'>
+                        <Link href='#'>
                             <div className={`${cl.bg}`}>
                             </div>
                             <Image
@@ -57,7 +55,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li >
-                        <Link href='/Users/hessi/PhpstormProjects/tvoe-live/public'>
+                        <Link href='#'>
                             <div className={`${cl.bg}`}>
                             </div>
                             <Image
@@ -70,7 +68,7 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li >
-                        <Link href='/Users/hessi/PhpstormProjects/tvoe-live/public'>
+                        <Link href='#'>
                             <div className={`${cl.bg}`}>
                             </div>
                             <Image

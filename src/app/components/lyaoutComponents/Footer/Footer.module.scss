@@ -15,6 +15,10 @@
   width: 100%;
 }
 
+.mobile {
+  display: none;
+}
+
 .bottom {
   width: 100%;
   margin-bottom: 44px;
@@ -43,7 +47,12 @@
   .footer {
     padding: 28px 0 0;
   }
-
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
   .top {
     flex-direction: column;
     gap: 10px;
