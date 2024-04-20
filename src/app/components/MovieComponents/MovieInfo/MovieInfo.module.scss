@@ -1,0 +1,67 @@
+.info {
+  margin-bottom: 64px;
+  &List {
+    max-width: 100%;
+    margin-bottom: 20px;
+
+    &Slide {
+      width: fit-content;
+    }
+  }
+  &Item {
+    color: rgba(255, 255, 255, 0.3);
+    padding: 6px 8px;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+  }
+  &Active {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  &Desc {
+    display: none;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  &Show {
+    display: block;
+  }
+
+  &Disclamare {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    color: rgba(75, 75, 75, 1);
+
+    & svg {
+      min-width: 24px;
+      min-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .info {
+    margin-bottom: 32px;
+    &List {
+      margin-bottom: 10px;
+    }
+    &Item {
+      padding: 0;
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 700;
+    }
+
+    &Disclamare {
+      padding: 16px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      gap: 16px;
+    }
+  }
+}
